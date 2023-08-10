@@ -19,7 +19,15 @@ chmod +x scripts/image_decompressors.py
 ```
 cd ~/compress_workspace
 catkin_make
-source devel/setup.bash
+source ~/compress_workspace/devel/setup.bash
+```
+
+### 4. Run 
+```
+# compress 할 경우,
+rosrun image_compression image_compressors.py 
+# decompress할 경우, 
+rosrun image_compression image_decompressors.py 
 ```
 
 #### Code modification : Compression 
