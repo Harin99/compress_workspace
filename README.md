@@ -25,5 +25,5 @@ source devel/setup.bash
 #### Code modification : Compression 
 Change the original topic name and the topic name to be compressed.
 
-### Code modification : Decompression 
+#### Code modification : Decompression 
 Change the input_topics to your own topic names. And also output topics.
