@@ -7,26 +7,25 @@ If you want to use this, Follow below process.
 ```
 git clone https://github.com/Harin99/compress_workspace.git
 ```
-
-### 2. Give execute permission to Python script file
-```
-cd ~/compress_workspace/src/image_compression
-chmod +x scripts/image_compressors.py
-chmod +x scripts/image_decompressors.py 
-```
-
-### 3. Build the workspace 
+### 2. Build the workspace 
 ```
 cd ~/compress_workspace
 catkin_make
 source ~/compress_workspace/devel/setup.bash
 ```
 
+### 3. Give execute permission to Python script file
+```
+cd ~/compress_workspace/src/image_compression
+chmod +x scripts/image_compressors.py
+chmod +x scripts/image_decompressors.py 
+```
+
 ### 4. Run 
 ```
-# compress 할 경우,
+# In case of compress,
 rosrun image_compression image_compressors.py 
-# decompress할 경우, 
+# In case of decompress, 
 rosrun image_compression image_decompressors.py 
 ```
 
